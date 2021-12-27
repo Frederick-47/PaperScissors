@@ -19,18 +19,18 @@ switch (computerAnswer){
 }
 
 if (answer == "paper" & computerAnswer == "rock"){
-    console.log("You Win")
+    console.log("You Win, Paper beats Rock")
 }else if(answer == "paper" & computerAnswer == "scissors"){
-    console.log("You lose")
+    console.log("You lose, Scissors beats Paper")
 }else if (answer == "rock" & computerAnswer == "paper") {
-    console.log("You lose")
+    console.log("You lose, Paper beats Rock")
 }else if (answer == "rock" & computerAnswer == "scissors"){
-    console.log("You win")
+    console.log("You win, Rock beats Scissors")
 }else if (answer == computerAnswer){
     console.log("TIE")
 }else if(answer == "scissors" & computerAnswer == "paper"){
-    console.log("You win")
+    console.log("You win, Scissors beats Paper")
 }else if(answer == "scissors" & computerAnswer == "rock"){
-    console.log("You lose")
+    console.log("You lose, Rock beats Scissors")
 }
 
