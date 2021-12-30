@@ -5,6 +5,7 @@
 
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 
@@ -14,6 +15,8 @@ body nav {
     justify-content: center;
     gap: 40px;
     background-color: #31827B;
+    border: black solid;
+    border-radius: 5px;
 }
 
 
@@ -21,4 +24,187 @@ body nav h1{
     color: #110C0B;
     background-color: #31827B;
 
+}
+
+.cards {
+    justify-content: center;
+    width: 800px;
+    height: 250px;
+    display: flex;
+    gap: 40px;
+}
+
+main{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.head {
+    height: 70px;
+    width: 220px;
+    background-color: #F7F0E5 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: black solid;
+
+}
+
+.head h2{
+    background-color: #F7F0E5 ;
+
+}
+
+
+#card1 {
+    background-color: #F7F0E5 ;
+    width: auto;
+    height: 250px;
+    border-radius: 5px;
+    border: black solid;
+}
+
+#card2 {
+    background-color: #F7F0E5 ;
+    width: auto;
+    height: 250px;
+    border-radius: 5px;
+    border: black solid;
+}
+
+#card3 {
+    background-color: #F7F0E5 ;
+    width: auto;
+    height: 250px;
+    border-radius: 5px;
+    border: black solid;
+}
+
+#card1 h2{
+    background-color: #F7F0E5 ;
+    text-align: center;
+}
+
+#card2 h2{
+    background-color: #F7F0E5 ;
+    text-align: center;
+}
+
+#card3 h2{
+    background-color: #F7F0E5 ;
+    text-align: center;
+}
+
+
+
+
+#card1 img {
+    border-radius: 5px;
+    background-color: #F7F0E5 ;
+    width: 200px;
+    height: 150px;
+}
+
+#card2 img {
+    padding-top: 5px;
+    background-color: #F7F0E5 ;
+    border-radius: 5px;
+    width: 200px;
+    height: 150px;
+    color: black;
+}
+
+#card3 img {
+    background-color: #F7F0E5 ;
+    border-radius: 5px;
+    width: 200px;
+    height: 150px;
+}
+
+#response {
+    display: flex;
+    flex-direction: column;
+    border: black solid;
+    border-radius: 5px;
+    background-color: #F7F0E5 ;
+    width: 350px;
+    height: 150px;
+}
+
+#response h2 {
+    margin: 0px;
+    background-color: #F7F0E5 ;
+    text-align: center;
+}
+
+#response p {
+    margin: 0px;
+    background-color: #F7F0E5 ;
+    width: 100%;
+    height: auto;
+    text-align: center;
+
+}
+
+.result {
+    width: 800px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.result h1 {
+    margin: 0px;
+    background-color: #F7F0E5;
+    text-align: center;
+}
+
+.result p {
+    margin: 0px;
+    background-color: #F7F0E5;
+    text-align: center;
+}
+
+.result .playerScore {
+    border: black solid;
+    border-radius: 5px;
+    background-color: #F7F0E5;
+    width: 150px;
+}
+
+.result .computerScore {
+    border: black solid;
+    border-radius: 5px;
+    background-color: #F7F0E5;
+    width: 150px;
+}
+
+.winner {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 110px;
+    background-color: #F7F0E5;
+    border: black solid;
+
+
+}
+
+.winner h3 {
+    margin: 0px;
+    background-color: #F7F0E5;
+    text-align: center;
+}
+
+.winner h2 {
+    margin: 0px;
+    background-color: #F7F0E5;
+    text-align: center;
+    margin-bottom: 20px;
 }

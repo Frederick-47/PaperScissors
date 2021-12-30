@@ -4,17 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="./index.js"></script>
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
+    
+
     <title>Rock Paper Scissors</title>
 </head>
 <body>
     <nav> <h1>Rock</h1> <h1>Paper</h1> <h1>Scissors</h1></nav>
     <main>
-        <div></div>
+        <div class="head">
+            <h2>Choose Wisely</h2>
+        </div>
+        <div class="cards">
+            <button id="card1"></button>
+            <button id="card2"></button>
+            <button id="card3"></button>
+
+        </div>
+        <div class="result">
+            <div class="playerScore">
+                <p>Your Score</p>
+                <h1 id="player"></h1>
+            </div>
+            <div id="response">
+                <h2>Result</h2>
+            </div>
+            <div class="computerScore">
+                <p>Machine Score</p>
+                <h1 id="computer"></h1>
+            </div>
+        </div>
+        <div class="winner">
+            <h3>Winner</h3>
+            <h2 id="Winner"></h2>
+        </div>
+        
     </main>
+    <script src="./DOMrender.js" defer></script>
 </body>
 </html>
